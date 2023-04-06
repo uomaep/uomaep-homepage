@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
           class="max-w-screen-md h-14 mx-auto p-2 backdrop-blur-sm flex justify-between"
         >
           <div class="mr-5">
-            <a href="/">
+            <a href="index.html">
               <span class="flex p-2.5">
                 <svg
                   width="20"
@@ -47,7 +47,7 @@ class NavBar extends HTMLElement {
               style="background-color: rgb(252 210 141);"
             >
               <button onclick="modHandler()">
-                <img id="modImg" class="w-4 h-4" src="/image/sun.svg" />
+                <img id="modImg" class="w-4 h-4" src="./image/sun.svg" />
               </button>
             </div>
             <div
@@ -76,21 +76,21 @@ class NavBar extends HTMLElement {
                 >
                   <li>
                     <a
-                      href="/"
+                      href="./index.html"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >About</a
                     >
                   </li>
                   <li>
                     <a
-                      href="/page/works.html"
+                      href="./works.html"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >Works</a
                     >
                   </li>
                   <li>
                     <a
-                      href="/page/uses.html"
+                      href="./uses.html"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >Uses</a
                     >
@@ -120,12 +120,12 @@ function modHandler() {
     body.style.color = "white";
     intro.style.backgroundColor = "rgb(49 49 52)";
     modBtn.style.backgroundColor = "rgb(252 210 141)";
-    modImg.src = "/image/sun.svg";
+    modImg.src = "./image/sun.svg";
   } else {
     body.style.backgroundColor = "#f0e7db";
     body.style.color = "#1a202c";
     intro.style.backgroundColor = "#f5f0e8";
     modBtn.style.backgroundColor = "#805ad5";
-    modImg.src = "/image/moon.svg";
+    modImg.src = "./image/moon.svg";
   }
 }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daewon - Homepage</title>
+    <link rel="stylesheet" href="./css/flowbite.min.css" />
+    <script src="./js/flowbite.min.js"></script>
+    <script src="./js/tailwindcss_3.3.0.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/card-item.js"></script>
+  </head>
+  <body
+    id="body"
+    class="transition duration-300"
+    style="background-color: rgb(32 32 35); color: white"
+  >
+    <custom-navbar title="Daewon Lim"></custom-navbar>
+    <div
+      class="md:max-w-screen-md mx-auto overflow-y-auto h-screen flex flex-col justify-between"
+    >
+      <div class="container mx-auto px-4 pt-16 mb-6 max-w-screen-sm">
+        <div
+          id="intro"
+          class="box-content rounded-lg p-3 mb-6 text-center"
+          style="background-color: rgb(49 49 52)"
+        >
+          Let me introduce my favorite items!
+        </div>
+        <div class="flex flex-col space-y-10">
+          <custom-item
+            title="Travel app"
+            sub="Favorite place to visit"
+            src="./image/travel_app.png"
+            href="https://github.com/uomaep/cordova/tree/main/travel"
+          ></custom-item>
+          <custom-item
+            title="Lol app"
+            sub="match history"
+            src="./image/lol_app.png"
+            href="https://github.com/uomaep/LolSearchApp"
+          ></custom-item>
+          <custom-item
+            title="Lol web"
+            sub="match history"
+            src="./image/lol_web.png"
+            href="https://github.com/uomaep/MyFirstFreeProject"
+          ></custom-item>
+        </div>
+      </div>
+      <footer class="text-center text-gray-600">
+        © 2023 Daewon Lim. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
+</html>
