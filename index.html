@@ -10,13 +10,18 @@
     <script src="/js/tailwindcss_3.3.0.js"></script>
     <script src="/js/navbar.js"></script>
   </head>
-  <body style="background-color: rgb(32 32 35); color: white">
+  <body
+    id="body"
+    class="transition duration-300"
+    style="background-color: rgb(32 32 35); color: white"
+  >
+    <custom-navbar title="Daewon Lim"></custom-navbar>
     <div
       class="md:max-w-screen-md mx-auto overflow-y-auto h-screen flex flex-col justify-between"
     >
-      <custom-navbar title="Daewon Lim"></custom-navbar>
       <div class="container mx-auto px-4 pt-14 mb-6 max-w-screen-sm">
         <div
+          id="intro"
           class="box-content rounded-lg p-3 mb-6 text-center"
           style="background-color: rgb(49 49 52)"
         >
@@ -32,7 +37,7 @@
           </div>
           <div class="flex justify-center">
             <img
-              src="image/profile.JPG"
+              src="/image/profile.JPG"
               alt="profile image"
               class="border-solid border rounded-full h-28 border-white"
             />
