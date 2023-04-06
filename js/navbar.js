@@ -43,7 +43,7 @@ class NavBar extends HTMLElement {
           </div>
           <div class="flex">
             <div id="modBtn"
-              class="w-10 h-10 border border-solid border-gray-600 rounded-lg grid place-items-center mr-2.5"
+              class="w-10 h-10 rounded-lg grid place-items-center mr-2.5"
               style="background-color: rgb(252 210 141);"
             >
               <button onclick="modHandler()">
